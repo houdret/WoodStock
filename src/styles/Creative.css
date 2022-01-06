@@ -1,0 +1,76 @@
+.creative{
+    background-color: rgb(41, 37, 37);
+    height: 810px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.creative-left{     
+    /* margin-top: 200px; */
+    margin-left: 15%;
+    min-width:30%;
+}
+.creative-right{
+    min-width:70%;    
+    position: relative;    
+}
+.creative-right #wood-2{    
+    margin-top: 15px;
+    width: 100px;
+    float: right;
+    margin-right: 300px;
+}
+.creative-right .creative-team h1{
+    position: absolute;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-top:50px ;
+    width: 500px;
+    color: rgb(5, 5, 5);
+    transform: translate(-335px, 55px);
+    z-index: 1;
+    background: #fff;
+    padding: 40px 50px;
+    font-size: 38px;
+}
+.creative-right h1{
+    position: absolute;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 250px;
+    font-size: 36px;
+    margin-left: -5%;
+}
+.creative-right p {
+    position: absolute;
+    font-size: 16px;
+    max-width: 650px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 350px;
+    margin-left: -5%;
+}
+
+.creative-right .go {
+    position: absolute;
+    display:flex;
+    margin-top: 600px;
+    align-items: center;
+    
+}
+.creative-right .go h3 {
+    position: relative;
+    border: 2px solid peru;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.creative-right .go hr {
+    width: 150px;
+     position: absolute;
+     transform: translate(-15px, 1px);
+     background: rgb(253, 252, 252);
+     border: 1px solid rgb(253, 252, 252);
+}

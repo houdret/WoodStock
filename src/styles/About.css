@@ -1,0 +1,56 @@
+.about{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 600px;
+    display:flex;
+    flex-direction: row;
+}
+
+.left{     
+    margin-top: 200px;
+    margin-left: 5%;
+    min-width:50%;
+}
+.left #chaise{
+    box-shadow: rgb(209, 158, 107)  -80px -40px;
+    margin-left: 35%;
+}
+.right{
+    min-width:50%;    
+    margin-top: 200px;
+}
+.right h2{
+    margin-left: 8%;
+    margin-bottom: 50px;
+    width: 200px;
+    border-left: 8px solid rgb(209, 158, 107);
+    padding-left: 20px;
+}
+.right #about {
+    font-size: 16px;
+    max-width: 450px;
+    text-align: left;
+    color: #333;
+    margin-left: 8%;
+}
+.right .go {
+    display:flex;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 5%;
+    color:#333;
+    margin-left: 8%;
+}
+.right .go h3 {
+    position: relative;
+    border: 2px solid peru;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+}
+.right .go hr {
+    width: 150px;
+     position: absolute;
+     transform: translate(-15px, 1px);
+     background: #000;
+     border: 1px solid #000;
+}

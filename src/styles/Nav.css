@@ -1,0 +1,32 @@
+.nav{
+    display:flex;
+    height: 80px;
+    width: 100%;
+    background: #000;
+    color: rgb(253, 251, 251);
+    top: 0;
+    z-index: 1;
+    font-size: 20px;   
+      
+}
+#menu{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.navigation{
+    display: inline-block;
+    margin-left: 45%;
+    text-align: right;
+    
+}
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 100px;
+}
